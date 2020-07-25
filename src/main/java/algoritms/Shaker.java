@@ -6,7 +6,7 @@ package algoritms;
  */
 public class Shaker implements Sortable{
 
-    int[] arr;
+    private int[] arr;
 
     public Shaker(int[] arr) {
         this.arr = arr;
