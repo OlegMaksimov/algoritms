@@ -1,3 +1,6 @@
+import algoritms.InsertSort;
+import algoritms.Sortable;
+
 /**
  *
  */
@@ -6,7 +9,8 @@ public class Main {
     public static void main(String[] args) {
         int size = 10;
         int[] arr = generate(size);
-
+        Sortable sortable = new InsertSort(arr);
+        sortable.sort();
 
     }
 
