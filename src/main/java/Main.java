@@ -1,5 +1,5 @@
-import algoritms.InsertSort;
-import algoritms.Sortable;
+import algoritms.*;
+
 
 /**
  *
